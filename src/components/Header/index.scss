@@ -1,0 +1,73 @@
+
+
+
+#header {
+  padding: 20px;
+  background-color: #06063b;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &--nav {
+      color: white;
+      text-align:center;
+      display: flex;
+      &__text{
+        font-size: 15px;
+        color:wheat;
+        padding:5px 5px;
+
+
+      }
+
+      &__button {
+        background: white;
+        border: none;
+        outline: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 18px;
+
+        &:hover {
+          background: #188094;
+          color: white;
+        }
+      }
+    }
+
+    .search-movies{
+      input{
+        font-size: 20px;
+        border:none;
+        outline: none;
+        margin: 0 10px;
+        border-radius: 5px;
+      }
+      button{
+        padding:0 9px;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        border-radius: 3px;
+        background: white;
+
+        &:hover{
+          background:rgba(46,255,228,0.88);
+
+        }
+
+      }
+    }
+  }
+}
+.popular{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &-top{
+    display: flex;
+  }
+}

@@ -1,0 +1,50 @@
+.detail {
+  position: relative;
+  height: 100vh;
+}
+.detail:before {
+  position: absolute;
+  z-index: 2;
+  content: "";
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  backdrop-filter: blur(10px);
+}
+.detail-circle {
+  background-color: #0f141a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 65px;
+  height: 65px;
+  max-height: 400px;
+  max-width: 400px;
+  margin-top: 24px;
+  color: #61ffbc;
+  border: 3px solid #61ffbc;
+  border-radius: 999px;
+  padding: 8px 24px;
+  cursor: pointer;
+  outline: none;
+}
+.detail .icon {
+  background: #0f141a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40px;
+  height: 50px;
+  margin-top: 24px;
+  color: #ffffff;
+  border: 3px solid rgba(6, 18, 26, 0.24);
+  border-radius: 50%;
+  padding: 8px 24px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=index.css.map */
